@@ -14,6 +14,7 @@ The goal of this project is to have a clean GitHub Actions build, with specs:
  * Code coverage: none
  * Profiling: none
  * Source: one single file, `main.cpp`
+ * Acknowledgments: [https://github.com/SFML/cmake-sfml-project](https://github.com/SFML/cmake-sfml-project) for an example [CMakeLists.txt](CMakeLists.txt)
 
 More complex builds:
 
@@ -27,3 +28,4 @@ Less complex builds:
 
  * No SFML library: [gha_cmake_gcc_cpp17](https://github.com/richelbilderbeek/gha_cmake_gcc_cpp17)
  
+
