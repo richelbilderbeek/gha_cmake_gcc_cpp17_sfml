@@ -15,5 +15,3 @@ FetchContent_Declare(SFML
 FetchContent_MakeAvailable(SFML)
 
 target_link_libraries(gha_cmake_gcc_cpp17_sfml PRIVATE sfml-graphics)
-# target_compile_features(gha_cmake_gcc_cpp17_sfml PRIVATE cxx_std_17)
-# install(TARGETS gha_cmake_gcc_cpp17_sfml)
